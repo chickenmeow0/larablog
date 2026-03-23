@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fffaca, #edaaf9);
+    padding: 30px;
+}
+
+/* Titre */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Bouton */
+a {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 30px;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #ffdb4d;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Carte article */
+.article {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Effet au survol */
+.article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.article h2 {
+    margin-bottom: 10px;
+}
+
+.article p {
+    color: #555;
+}
